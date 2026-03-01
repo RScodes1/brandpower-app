@@ -5,7 +5,6 @@ import { boundary } from "@shopify/shopify-app-react-router/server";
 import { authenticate } from "../shopify.server";
 import { connectMongo } from "../mongo.server";
 import { Announcement } from "../models/announcement.server";
-import { json } from "@remix-run/node";
 
 export const loader = async ({ request }) => {
   await authenticate.admin(request);
@@ -63,7 +62,7 @@ export const action = async ({ request }) => {
     }
   );
 
-  return json({ success: true });
+  return Response.json({ success: true });
 };
 
 export default function AnnouncementPage() {
