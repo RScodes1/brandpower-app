@@ -27,8 +27,8 @@ A Render account (for production deployment)
  Installation (Local Development)
 Clone the repository:
 ```bash
-git clone <your-repo-link>
-cd <project-folder>
+git clone [<your-repo-link>](https://github.com/RScodes1/brandpower-app.git)
+cd brandpower-app
 ```
 Install dependencies:
 
