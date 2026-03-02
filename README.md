@@ -10,18 +10,18 @@
 
 ### The app supports:
 
-OAuth authentication
-Webhook handling (app/uninstalled)
-App Embed via Theme Extension
+- OAuth authentication
+- Webhook handling (app/uninstalled)
+- App Embed via Theme Extension
 
 ### Prerequisites
 
 Make sure you have:
 
-Node.js (v20+ recommended)
-Shopify Partner account
-Shopify development store
-Shopify CLI installed
+- Node.js (v20+ recommended)
+- Shopify Partner account
+- Shopify development store
+- Shopify CLI installed
 
 A Render account (for production deployment)
  Installation (Local Development)
@@ -56,6 +56,6 @@ shopify app dev
 
 This will:
 
-Create a tunnel
-Install app on development store
-Register webhooks automatically
+- Create a tunnel
+- Install app on development store
+- Register webhooks automatically
