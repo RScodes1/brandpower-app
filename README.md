@@ -3,7 +3,7 @@
 
 ### This is a Shopify embedded app built using:
 
-Node.js
+Node.js/
 Shopify App Bridge
 Theme App Extension
 Deployed backend on Render
