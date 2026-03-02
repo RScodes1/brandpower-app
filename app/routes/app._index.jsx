@@ -70,7 +70,7 @@ export default function AnnouncementPage() {
   const [text, setText] = useState("");
 
   return (
-    <Page>
+    <Page title = "Announcement Banner">
       <Card>
         <div style={{ padding: "20px" }}>
           <TextField
